@@ -1,0 +1,398 @@
+.home-intro {
+  display: flex;
+  position: relative;
+  background-color: rgb(120, 133, 230);
+  height: 300px;
+  width: 1200px;
+  top: 120px;
+
+  margin: auto;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+
+
+
+}
+
+.home-title {
+  background-color: rgb(16, 17, 25);
+  font-size: 130px;
+  color: white;
+}
+
+.home-description {
+  background-color: rgb(16, 17, 25);
+  font-size: 25px;
+  color: rgb(192, 209, 216);
+  margin-bottom: 100px;
+  margin-right: 30px;
+}
+
+.home-main {
+  display: flex;
+  position: relative;
+  background-color: rgb(65, 226, 25);
+  height: 4000px;
+  width: 1450px;
+  top: 200px;
+
+  /*margin: 0px -197.2px 0px 0px;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+
+
+
+
+}
+
+.home-buildpc {
+  position: absolute;
+  background-color: rgb(101, 208, 201);
+  color: rgb(192, 209, 216);
+  left: 0;
+  height: 600px;
+  width: 750px;
+  cursor: pointer;
+}
+
+.home-run {
+  position: absolute;
+  background-color: rgb(16, 17, 25);
+  color: rgb(163, 153, 62);
+  right: 0;
+  top: 450px;
+
+
+  height: 600px;
+  width: 700px;
+
+
+}
+
+.home-recom {
+  position: absolute;
+  background-color: rgb(105, 218, 14);
+  color: rgb(192, 209, 216);
+  left: 0;
+  height: 600px;
+  width: 750px;
+  top: 900px;
+
+}
+
+.home-support {
+  position: absolute;
+  background-color: rgb(9, 140, 210);
+  color: rgb(192, 209, 216);
+  right: 0;
+  top: 1350px;
+
+
+  height: 600px;
+  width: 700px;
+}
+
+.buildpc-title{
+
+  position: absolute;
+  background-color: rgb(18, 18, 21);
+  color: rgb(192, 209, 216);
+  left: 550px;
+  top: 200px;
+
+
+  height: 100px;
+  width: 200px;
+  border: none;
+
+  cursor: pointer;
+
+
+  transition: 0.3s;
+  font-size: 40px;
+  padding-left: 25px;
+  padding-top: 20px;
+  margin-right: 330px;
+}
+
+.home-buildpc:hover .buildpc-title {
+  box-shadow: 0px 0px 0px 0px white;
+  margin-left: 120px;
+
+
+}
+
+.run-title {
+
+  position: absolute;
+  background-color: rgb(33, 53, 206);
+  color: rgb(192, 209, 216);
+  right: 700px;
+  top: 300px;
+
+
+  height: 100px;
+  width: 200px;
+  border: none;
+
+  cursor: pointer;
+
+
+  transition: 0.3s;
+  font-size: 40px;
+  padding-left: 25px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 0px 0px white;
+  left: -300px;
+
+}
+
+.home-run:hover .run-title {
+  box-shadow: 0px 0px 0px 0px white;
+  left: -150px;
+
+}
+
+.recom-title {
+
+  position: absolute;
+  background-color: rgb(91, 196, 12);
+  color: rgb(192, 209, 216);
+  right: -350px;
+  top: 270px;
+
+
+
+  height: 100px;
+  width: 250px;
+
+  border: none;
+
+  cursor: pointer;
+
+
+  transition: 0.3s;
+  font-size: 40px;
+  padding-left: 0;
+  padding-top: 20px;
+  box-shadow: 0px 0px 0px 0px white;
+  margin-right: 330px;
+}
+
+.home-recom:hover .recom-title {
+  box-shadow: 0px 0px 0px 0px white;
+  margin-right: 180px;
+
+}
+
+.support-title {
+
+  position: absolute;
+  background-color: rgb(16, 17, 25);
+  color: rgb(192, 209, 216);
+  left: -530px;
+  top: 350px;
+
+
+  height: 100px;
+  width: 200px;
+  border: none;
+
+  cursor: pointer;
+
+
+  transition: 0.3s;
+  font-size: 40px;
+  padding-left: 25px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 0px 0px white;
+  left: -300px;
+  z-index: 1;
+}
+
+.home-support:hover .support-title {
+
+  left: -150px;
+
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+#support-edit {
+
+  margin-top: 450px;
+}
+
+
+.home-images {
+  position: absolute;
+  background-color: rgb(16, 17, 25);
+  width: 400px;
+  left: 50px;
+  transition: 0.5s;
+}
+
+.support-image-edit{
+  position: absolute;
+  background-color: rgb(16, 17, 25);
+  width: 350px;
+  left: 50px;
+  transition: 0.5s;
+}
+
+.home-text {
+
+  border: none;
+  background-color: rgb(16, 17, 25);
+  /*rgb(16, 17, 25);*/
+  color: rgb(16, 17, 25);
+  cursor: pointer;
+  font-size: 25px;
+  padding: 4px 7px;
+  transition: 0.5s;
+  margin-top: 450px;
+  margin-right: 200px;
+}
+
+.home-buildpc:hover .home-text,
+.home-run:hover .home-text,
+.home-recom:hover .home-text,
+.home-support:hover .home-text {
+  margin-right: 0;
+  margin-top: 500px;
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-bottom: 00px;
+
+  color: rgb(218, 210, 210);
+  background-color: rgb(16, 17, 25);
+
+}
+
+.home-buildpc:hover .home-images,
+.home-run:hover .home-images,
+.home-recom:hover .home-images {
+
+  width: 500px;
+
+
+}
+
+.home-support:hover .support-image-edit {
+  width: 400px;
+}
+
+.home-buildpc:hover,
+.home-run:hover,
+.home-recom:hover,
+.home-support:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+
+}
+
+
+
+
+.line-before-news {
+
+  top: 2050px;
+  left: 350px;
+  position: absolute;
+  width: 725px;
+  height: 2px;
+  background-color: white;
+}
+
+.news-box {
+  position: absolute;
+  background-color: rgb(92, 91, 91);
+  width: 500px;
+  height: 500px;
+  transition: 0.8s;
+}
+
+.news-box:hover {
+
+  height: 700px;
+  color: aqua;
+}
+
+.news-box:hover .box-text,
+.news-box:hover .newslink {
+
+
+  color: aqua;
+}
+
+.box-text {
+
+  position: absolute;
+  bottom: 10px;
+  color: transparent;
+}
+
+.newslink {
+  color: transparent;
+  text-decoration: none;
+}
+
+.news-title {
+  position: absolute;
+  background-color: rgb(16, 17, 25);
+  width: 200px;
+  height: 100px;
+  top: 2150px;
+  left: 600px;
+
+}
+
+.news-title-text {
+  font-size: 40px;
+  padding-top: 0px;
+  margin-top: 25px;
+  color: aliceblue;
+}
+
+
+.lowbar-text {
+  font-size: 70px;
+  position: absolute;
+  left: 550px;
+  bottom: 80px;
+}
+
+.lowbar-button {
+  background-color: rgb(16, 17, 25);
+  color: white;
+  border: none;
+  height: 100px;
+  width: 300px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 590px;
+  bottom: 20px;
+}
+
+#a1 {
+  background-color: rgb(16, 17, 25);
+}
+
+#a2 {
+  background-color: rgb(92, 91, 91);
+  height: 300px;
+  width: 450px;
+  left: 25px;
+  top: 10px;
+}

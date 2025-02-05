@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Recommendations</title>
+
+    <link rel="stylesheet" href="styles/stylepc.css">
+
+
+
+</head>
+
+<body>
+    
+
+    <label class="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside class="sidebar" style="opacity: 1;">
+        <nav>
+            <div><a href="home.html">
+                          <h1 class="side1 title"><img src="icons/speedometer (1).png"> R8PC </h1>
+                          </a><hr></div>
+          <div><a href="home.html">
+                          <h2 class="side1"><img src="icons/home (1).png"> Home </h2>
+                          </a><hr></div>
+          <div>
+                          <h2 class="side1"><img src="icons/speedometer (4).png"><a href="ratepc.html"> Rate my PC </a></h2>
+                          </a><hr></div>
+          <div>
+                          <h2 class="side1"><img src="icons/list (1).png"><a href="programs(base).html">  Can you Run it ?</a></h2>
+                          </a><hr></div>
+          <div>
+                          <h2 class="side1"><img src="icons/computer.png"><a href="recom.html">   Recommendations</a></h2>
+                          </a><hr></div>
+                          <div>
+                          <h2 class="side1"><img src="icons/contact-mail.png"><a href="contact.html"> Contact US </a></h2>
+                          </a><hr></div>
+        </nav>
+      </aside>
+
+
+
+      <div id="star">
+
+          <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1>Attention</h1>
+            <p>
+              this page is not sponsored by any of the parts
+              companies mentioned. Our whole purpose of this section is to provide clear
+              information about the latest pc parts (GPUs and CPUs specifically) and help others find what part might suit their needs.
+            </p>
+          </div>
+          <div class="overlay hidden"></div>
+          <script src="script.js"></script>
+          <h1>Best GPUs and CPUs</h1>
+          <p>
+            Trying to find the best of the best but don't know were to look? want to
+            find the best part options with the limited budget you currently have?
+            this page will cover the top 3 GPUs and CPUs by performance (ordered) as
+            well as the best budget GPUs/CPUs (unordered).
+          </p>
+          <br /><br />
+          <button id="btn1" onclick="hideshow(1)">Best GPUs For Gaming</button>
+      
+          <dl id="list1">
+            <dt><a  target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=4090&crid=38E5A7Y11YPRH&sprefix=4090%2Caps%2C349&ref=nb_sb_noss_1">RTX 4090</a></dt>
+            
+            <dd>
+              <div><div id="movingimages0"><img id="imagescrolling0" src="hardware/1024.png">
+                <button class = "button-right" onclick="increment(0)">&gt;</button>
+                <button class = "button-left" onclick="decrement(0)">&lt;</button></div>
+                The RTX 4090 is based on Nvidia’s Ada Lovelace architecture. It features
+                16,384 cores with base / boost clocks of 2.2 / 2.5 GHz, 24 GB of memory,
+                a 384-bit memory bus, 128 3rd gen RT cores, 512 4th gen Tensor cores,
+                DLSS 3 and a TDP of 450W. Performance gains will vary depending on the
+                specific game and resolution. With a 4090 tier card 1080p in-game fps
+                will often get CPU bottlenecked which prevents the GPU from delivering
+                higher fps. At higher (often sub-optimal) resolutions (1440p, 4K etc)
+                the 4090 will show increasing improvements compared to lesser cards.
+                When fps are not CPU bottlenecked at all, such as during GPU benchmarks,
+                the 4090 is around 75% faster than the 3090 and 60% faster than the
+                3090-Ti, these figures are approximate upper bounds for in-game fps
+                improvements. The fact that the 4090 is currently the fastest performing
+                graphics card available is reflected in its jaw-dropping MSRP of $1,600.
+              </div>
+            </dd>
+            <dt><a target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=4080&crid=27UBJ6S1PXPCJ&sprefix=4080%2Caps%2C247&ref=nb_sb_noss_1">RTX 4080</dt></a>
+            <dd><div><div id="movingimages1"><img id="imagescrolling1" src="hardware/4080.jpg" />
+              <button class = "button-right" onclick="increment(1)">&gt;</button>
+              <button class = "button-left" onclick="decrement(1)">&lt;</button></div>
+              The Nvidia GeForce RTX 4080 is the follow-up to the RTX 4090 launch.It
+              features 9,728 cores with base / boost clocks of 2.2 / 2.5 GHz, 16 GB of
+              memory, a 256-bit memory bus, 76 3rd gen RT cores, 304 4th gen Tensor
+              cores, DLSS 3 and a TDP of 320W. Performance gains will vary depending
+              on the specific game and resolution. With a 4080 tier card 1080p in-game
+              fps will often get CPU bottlenecked which prevents the GPU from
+              delivering higher fps. At higher (often sub-optimal) resolutions (1440p,
+              4K etc) the 4080 will show increasing improvements compared to lesser
+              cards. When fps are not CPU bottlenecked at all, such as during GPU
+              benchmarks, the 4080 is around 50% faster than the 3080 and 25% faster
+              than the 3090-Ti, these figures are approximate upper bounds for in-game
+              fps improvements. The 4080 has an MSRP of $1,200 USD.</div>
+            </dd>
+            <dt><a target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=7900xtx&sprefix=7900%2Caps%2C666&ref=nb_sb_ss_ts-doa-p_1_4">AMD Radeon RX 7900 XTX</a></dt>
+            <dd><div><div id="movingimages2"><img id="imagescrolling2" src="hardware/7900-1.jpg" />
+              <button class = "button-right" onclick="increment(2)">&gt;</button>
+              <button class = "button-left" onclick="decrement(2)">&lt;</button></div>
+              The Radeon RX 7900 XTX is an enthusiast-class graphics card by AMD,
+              launched on November 3rd, 2022. Built on the 5 nm process, and based on
+              the Navi 31 graphics processor, in its Navi 31 XTX variant, the card
+              supports DirectX 12 Ultimate. This ensures that all modern games will
+              run on Radeon RX 7900 XTX. Additionally, the DirectX 12 Ultimate
+              capability guarantees support for hardware-raytracing, variable-rate
+              shading and more, in upcoming video games. The Navi 31 graphics
+              processor is a large chip with a die area of 529 mm² and 58,000 million
+              transistors. It features 6144 shading units, 384 texture mapping units,
+              and 192 ROPs. The card also has 96 raytracing acceleration cores. AMD
+              has paired 24 GB GDDR6 memory with the Radeon RX 7900 XTX, which are
+              connected using a 384-bit memory interface. The GPU is operating at a
+              frequency of 1855 MHz, which can be boosted up to 2499 MHz, memory is
+              running at 2500 MHz (20 Gbps effective).</div>
+            </dd>
+          </dl>
+          <br /><br />
+      
+          <button id="btn2" onclick="hideshow(2)">Best Budget GPUs</button>
+          <dl id="list2">
+            <dt><a target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=6600xt&crid=3GHPI94QD8D9A&sprefix=66%2Caps%2C256&ref=nb_sb_ss_ts-doa-p_2_2">AMD Radeon RX 6600 XT</dt></a>
+            <dd><div><div id="movingimages3"><img id="imagescrolling3" src="hardware/xt.jpg" />
+              <button class = "button-right" onclick="increment(3)">&gt;</button>
+              <button class = "button-left" onclick="decrement(3)">&lt;</button></div>
+              The Radeon RX 6600 XT is a performance-segment graphics card by AMD,
+              launched on July 30th, 2021. Built on the 7 nm process, and based on the
+              Navi 23 graphics processor, in its Navi 23 XT variant, the card supports
+              DirectX 12 Ultimate. This ensures that all modern games will run on
+              Radeon RX 6600 XT. Additionally, the DirectX 12 Ultimate capability
+              guarantees support for hardware-raytracing, variable-rate shading and
+              more, in upcoming video games. The Navi 23 graphics processor is an
+              average sized chip with a die area of 237 mm² and 11,060 million
+              transistors. It features 2048 shading units, 128 texture mapping units,
+              and 64 ROPs. The card also has 32 raytracing acceleration cores. AMD has
+              paired 8 GB GDDR6 memory with the Radeon RX 6600 XT, which are connected
+              using a 128-bit memory interface. The GPU is operating at a frequency of
+              1968 MHz, which can be boosted up to 2589 MHz, memory is running at 2000
+              MHz (16 Gbps effective).</div>
+            </dd>
+            <dt><a  target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=3050&crid=2NL1G5VIBWTP6&sprefix=3050%2Caps%2C268&ref=nb_sb_noss_1">RTX 3050</dt></a>
+            <dd><div><div id="movingimages4"><img id="imagescrolling4" src="hardware/3050.jpg" />
+              <button class = "button-right" onclick="increment(4)">&gt;</button>
+              <button class = "button-left" onclick="decrement(4)">&lt;</button></div>
+              The RTX 3050 is built on NVIDIA’s Ampere architecture. It marks the
+              first time that ray-tracing has been available on an entry level
+              (50-series) card. Second generation ray tracing cores can be switched on
+              for more realistic light simulation, albeit at a hit to performance. The
+              3050 features 2560 CUDA cores, a boost clock frequency of 1.78 GHz, 8 GB
+              of the latest GDDR6 memory and NVIDIA’s DLSS. DLSS technology uses the
+              3050’s tensor cores to scale up resolutions whilst maintaining high
+              frame rates and without losing significant image quality. The 3050 also
+              includes an encoder (NVENC) for sharper images and smoother capture
+              whilst recording/streaming.</div>
+            </dd>
+            <dt><a target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=6600&crid=108GIUP22O05J&sprefix=6600%2Caps%2C256&ref=nb_sb_noss_1">Radeon RX 6600</a></dt>
+            <dd><div><div id="movingimages5"><img id="imagescrolling5" src="hardware/6600.jpg" />
+              <button class = "button-right" onclick="increment(5)">&gt;</button>
+              <button class = "button-left" onclick="decrement(5)">&lt;</button></div>
+              The Radeon RX 6600 is a performance-segment graphics card by AMD,
+              launched on October 13th, 2021. Built on the 7 nm process, and based on
+              the Navi 23 graphics processor, in its Navi 23 XL variant, the card
+              supports DirectX 12 Ultimate. This ensures that all modern games will
+              run on Radeon RX 6600. Additionally, the DirectX 12 Ultimate capability
+              guarantees support for hardware-raytracing, variable-rate shading and
+              more, in upcoming video games. The Navi 23 graphics processor is an
+              average sized chip with a die area of 237 mm² and 11,060 million
+              transistors. Unlike the fully unlocked Radeon RX 6650 XT, which uses the
+              same GPU but has all 2048 shaders enabled, AMD has disabled some shading
+              units on the Radeon RX 6600 to reach the product's target shader count.
+              It features 1792 shading units, 112 texture mapping units, and 64 ROPs.
+              The card also has 28 raytracing acceleration cores. AMD has paired 8 GB
+              GDDR6 memory with the Radeon RX 6600, which are connected using a
+              128-bit memory interface. The GPU is operating at a frequency of 1626
+              MHz, which can be boosted up to 2491 MHz, memory is running at 1750 MHz
+              (14 Gbps effective).</div>
+            </dd>
+          </dl>
+          <br /><br />
+          <button id="btn3" onclick="hideshow(3)">Best CPUs For Gaming</button>
+          <dl id="list3">
+            <dt><a  target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=13900k&crid=23PJWPLUT211R&sprefix=13900k%2Caps%2C385&ref=nb_sb_ss_ts-doa-p_1_6">Intel Core i9-13900K</dt></a>
+            <dd><div><div class="cpuimages"> <img class="cpusize" src="hardware/Intel_Core_i9_13900K_header_5.jpg" height="500" /></div>
+              The Intel Core i9-13900K is a desktop processor with 24 cores, launched
+              in September 2022. It is part of the Core i9 lineup, using the Raptor
+              Lake architecture with Socket 1700. Thanks to Intel Hyper-Threading the
+              core-count is effectively doubled, to 32 threads. Core i9-13900K has
+              36MB of L3 cache and operates at 3 GHz by default, but can boost up to
+              5.8 GHz, depending on the workload. Intel is building the Core i9-13900K
+              on a 10 nm production process, the transistor count is unknown. You may
+              freely adjust the unlocked multiplier on Core i9-13900K, which
+              simplifies overclocking greatly, as you can easily dial in any
+              overclocking frequency. With a TDP of 125 W, the Core i9-13900K consumes
+              a lot of power, so good cooling is definitely needed. Intel's processor
+              supports DDR4 and DDR5 memory with a dual-channel interface. ECC memory
+              is supported, too, which is an important capability for mission-critical
+              systems, to avoid data corruption. For communication with other
+              components in the computer, Core i9-13900K uses a PCI-Express Gen 5
+              connection. This processor features the UHD Graphics 770 integrated
+              graphics solution.</div>
+            </dd>
+            <dt><a target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=13700k&crid=3ERRK3BOWWO2V&sprefix=13%2Caps%2C265&ref=nb_sb_ss_ts-doa-p_2_2">Intel Core i7-13700K</dt></a>
+            <dd> <div><div class="cpuimages"><img class="cpusize" src="hardware/i713700k.jpg" height="500" /></div>
+              The Intel Core i7-13700K is a desktop processor with 16 cores, launched
+              in September 2022. It is part of the Core i7 lineup, using the Raptor
+              Lake architecture with Socket 1700. Thanks to Intel Hyper-Threading the
+              core-count is effectively doubled, to 24 threads. Core i7-13700K has
+              30MB of L3 cache and operates at 3.4 GHz by default, but can boost up to
+              5.4 GHz, depending on the workload. Intel is making the Core i7-13700K
+              on a 10 nm production node, the transistor count is unknown. You may
+              freely adjust the unlocked multiplier on Core i7-13700K, which
+              simplifies overclocking greatly, as you can easily dial in any
+              overclocking frequency. With a TDP of 125 W, the Core i7-13700K consumes
+              a lot of power, so good cooling is definitely needed. Intel's processor
+              supports DDR4 and DDR5 memory with a dual-channel interface. ECC memory
+              is supported, too, which is an important capability for mission-critical
+              systems, to avoid data corruption. For communication with other
+              components in the computer, Core i7-13700K uses a PCI-Express Gen 5
+              connection. This processor features the UHD Graphics 770 integrated
+              graphics solution.</div>
+            </dd>
+            <dt><a target="_blank" title="click to check price on Amazon" href="https://www.amazon.com/s?k=13400&crid=3T91ET6UJ6LE6&sprefix=13400%2Caps%2C252&ref=nb_sb_noss_1">Intel Core i5-13400</a>
+            
+            <dd><div><div class="cpuimages"><img class="cpusize" src="hardware/Intel_Core_i5_13400_benchmark.jpg" height="500" /></div>
+              The Intel Core i5-13400 is a desktop processor with 10 cores, launched
+              in January 2023. It is part of the Core i5 lineup, using the Raptor Lake
+              architecture with Socket 1700. Thanks to Intel Hyper-Threading the
+              core-count is effectively doubled, to 16 threads. Core i5-13400 has 20MB
+              of L3 cache and operates at 2.5 GHz by default, but can boost up to 4.6
+              GHz, depending on the workload. Intel is making the Core i5-13400 on a
+              10 nm production node, the transistor count is unknown. The multiplier
+              is locked on Core i5-13400, which limits its overclocking potential.
+              With a TDP of 65 W, the Core i5-13400 consumes typical power levels for
+              a modern PC. Intel's processor supports DDR4 and DDR5 memory with a
+              dual-channel interface. For communication with other components in the
+              computer, Core i5-13400 uses a PCI-Express Gen 5 connection. This
+              processor features the UHD Graphics 730 integrated graphics solution.</div>
+            </dd>
+          </dl>
+          <br><br>
+          <button id="btn4" onclick="hideshow(4)">GPU Performance Comparison Table</button>
+          <div id="list4">
+            <br>
+            <p>Below is the list of of some gpus' framerate across 8 different AAA
+              games which are: Borderlands 3 (DX12), Far Cry 6 (DX12), Flight
+              Simulator (DX11/DX12), Forza Horizon 5 (DX12), Horizon Zero Dawn (DX12),
+              Red Dead Redemption 2 (Vulkan), Total War Warhammer 3 (DX11), and Watch
+              Dogs Legion (DX12). The fps score is the geometric mean (equal
+              weighting) of the eight games.</p>
+            <table>
+              <tr>
+                <th>Graphics card</th>
+                <th>1080p Ultra</th>
+                <th>1080p Medium</th>
+                <th>1440p Ultra</th>
+                <th>4K Ultra</th>
+              </tr>
+              <tr>
+                <td>GeForce RTX 4090</td>
+                <td>100.0% (147.8fps)</td>
+                <td>100.0% (186.9fps)</td>
+                <td>100.0% (143.1fps)</td>
+                <td>100.0% (116.0fps)</td>
+              </tr>
+              <tr>
+                <td>Radeon RX 7900 XTX</td>
+                <td>96.1% (142.0fps)</td>
+                <td>94.7% (177.0fps)</td>
+                <td>91.9% (131.5fps)</td>
+                <td>81.8% (94.8fps)</td>
+              </tr>
+              <tr>
+                <td>GeForce RTX 4080</td>
+                <td>95.6% (141.3fps)</td>
+                <td>97.8% (182.7fps)</td>
+                <td>90.9% (130.1fps)</td>
+                <td>78.7% (91.2fps)</td>
+              </tr>
+              <tr>
+                <td>Radeon RX 6600 XT</td>
+                <td>52.8% (78.0fps)</td>
+                <td>73.1% (136.5fps)</td>
+                <td>38.4% (54.9fps)</td>
+                <td> - </td>
+              </tr>
+              </tr>
+              <tr>
+                <td>Radeon RX 6600</td>
+                <td>45.1% (66.7fps)</td>
+                <td>63.0% (117.8fps)</td>
+                <td>32.2% (46.1fps)</td>
+                <td> - </td>
+              </tr>
+              <tr>
+                <td>GeForce RTX 3050</td>
+                <td>34.8% (51.4fps)</td>
+                <td>47.8% (89.4fps)</td>
+                <td>26.3% (37.6fps)</td>
+                <td> - </td>
+            </table>
+            <br /><br />
+            <br /><br />
+          </div>
+          <br><br>
+  
+    </div>
+
+    
+
+
+
+    <div><a href="home.html"><img class="logo-img" src="icons/Logo.png"></a></div>
+    <footer>
+        <div style="
+        margin-top: 25px;">
+        <div style="margin-bottom: 10px;">
+            <h4>ALL RIGHTS PRESERVED &copyR8PC</h4>
+        </div>
+        <div>Kindly ,  share your thoughts on social media !</div>
+        <div>
+                <a href="https://twitter.com/?lang=en" target="_blank">
+                <img src="icons/twt.png"  class="footer-imgs">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                <img src="icons/yt.webp" class="footer-imgs">
+                </a> 
+                <a href="https://www.facebook.com/" target="_blank"> 
+                <img src="icons/fb.png" class="footer-imgs">    
+                </a></div>
+                <div style="margin-top: 5px;
+                            margin-right:30px ;"><a href="contact.html">Contact us, Here!</a></div>
+            </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
+
+
+<style>
+    #star * {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 2rem;
+  color: white;
+}
+
+    body {
+  font-family: sans-serif;
+ 
+  background-color: rgb(16, 17, 25);
+  line-height: 1.5;
+  height: 100vh;
+  position: absolute;
+  justify-content: center;
+  margin: 0rem;
+  text-align: justify;
+  color: rgb(192,209,216);
+}
+
+
+
+
+
+h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+
+
+dt {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#star a:hover
+{
+  color: rgb(209,16,38);
+}
+
+a{
+  color: rgb(192,209,216);
+}
+dd{
+  font-size: 1.5rem;
+}
+
+#star button{
+  padding: .9rem;
+}
+button {
+  font-size: 4rem;
+  background-color: rgb(41, 40, 40);
+  border: none;
+  color: inherit;
+  display:block;
+  padding: .9rem;
+  margin-bottom: 0;
+  margin: auto;
+  width: auto;
+
+}
+
+#star button:hover{
+  background-color: rgb(209,16,38);
+  transition: 1000ms;
+}
+
+
+
+#star table{
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+#star th, #star tr, #star td{
+  font-size: 2rem;
+  padding: .25rem;
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+#star th{
+  border-width: 3px;
+}
+
+tr:nth-of-type(even){
+  background-color: rgb(30, 32, 48);
+}
+
+
+
+</style>
